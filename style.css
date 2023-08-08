@@ -1,0 +1,294 @@
+/*for mobile*/
+@media screen and (max-width: 599px) {
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+   
+   
+    
+}
+h1{
+    text-align: center;
+}
+
+.bio-container{
+ 
+
+    display:block
+   
+}
+
+
+.bio p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+   
+}
+.bio img, .main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+   
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+.panel{
+    width: 80vw;
+    margin: 10px;
+    border: 1px solid gray;
+    position: relative;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.content{
+
+   text-align: center;
+   
+}
+.content h3{
+    margin-top: 40px;
+    padding: 10px;
+}
+.panel i{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    background-color: yellow;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+  
+}
+}
+
+@media screen and (min-width:600px) and (max-width: 1023px){
+
+body{
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.bio-container{
+ 
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.bio{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio p{
+    text-align: center;
+    padding: 10px;
+}
+.bio img{
+    
+    width:250px;
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.main{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+}
+
+.panel{
+    width: 80vw;
+    margin: 10px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.content{
+
+   text-align: center;
+   
+}
+.content h3{
+    margin-top: 40px;
+    padding: 10px;
+}
+.panel i{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    background-color: yellow;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+  
+}
+
+} 
+
+@media screen and (min-width:1024px) {
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+   
+   
+    
+}
+h1{
+    text-align: center;
+}
+
+.bio-container{
+ 
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.bio{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio p{
+    text-align: center;
+    padding: 10px;
+}
+.bio img{
+    
+    width:250px;
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.main{
+    display: flex;
+    width: 90vw;
+    height: 90vh;
+}
+
+.panel{
+    width: 80vw;
+    margin: 10px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.content{
+
+   text-align: center;
+   
+}
+.content h3{
+    margin-top: 40px;
+    padding: 10px;
+}
+.panel i{
+    position: absolute;
+    right: 80px;
+    bottom: 40px;
+    background-color: yellow;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.image img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+  
+}
+
+    
+}
+
+

@@ -1,0 +1,26 @@
+*:root{
+    --background-color:#005293;
+    --text-color:#fecb00;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    color: #fecb00;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+a{
+    color: #fecb00;
+
+}
+a:active{
+    color: #fecb00;
+}
+a:visited{
+    color: #fecb00;
+}
