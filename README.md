@@ -1,1 +1,1 @@
-This repository contains my portfolio
+This repository contains my blog on Study in Sweden.
