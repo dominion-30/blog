@@ -7,6 +7,8 @@
 }
 
 body{
+/* position: relative;
+   */
     
    
    
@@ -52,16 +54,18 @@ h1{
 
 
 .panel{
-    height: auto;
+
     width: 80vw;
     margin: 10px;
     border: 1px solid gray;
     position: relative;
     margin-bottom: 25px;
     margin-top: 25px;
+    
 }
 
 .content{
+
 
    text-align: center;
    
@@ -69,6 +73,9 @@ h1{
 .content h3{
     margin-top: 40px;
     padding: 10px;
+}
+.content p{
+    margin-bottom: 40px;
 }
 .panel i{
     position: absolute;
@@ -94,11 +101,51 @@ h1{
     
   
 }
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.social img{
+    
+    width: 30%;
+
+}
+
+/* .flag img{
+    position: absolute;
+    width: 10%;
+    top: 25px;
+    right: 20px;
+} */
+
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.flag img{
+    width: 25%;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
+
 }
 
 @media screen and (min-width:600px) and (max-width: 1023px){
 
 body{
+
+    position: relative;
     
 }
 
@@ -189,6 +236,41 @@ h1{
     height: auto;
     
   
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.social img{
+    
+    width: 30%;
+}
+.instagram{
+    margin-top: 20px;
+    
+}
+.linkedin{
+    margin-top: 40px;
+}
+
+.youtube{
+    margin-top: 60px;
+}
+
+.flag img{
+    position: absolute;
+    width: 8%;
+    right: 80px;
+    top: 50px;
+}
+
+footer{
+    text-align: center;
 }
 
 } 
@@ -200,7 +282,10 @@ h1{
     box-sizing: border-box;
 }
 
+
+
 body{
+    position: relative;
     
    
    
@@ -255,6 +340,7 @@ h1{
     margin: 10px;
     border: 1px solid gray;
     position: relative;
+    
 }
 
 .content{
@@ -283,12 +369,41 @@ h1{
 }
 
 .image img{
-    max-width: 100%;
+    
     width: 100%;
     height: auto;
     
   
 }
+
+.image .self{
+ height:70vh;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+.social img{
+    
+    width: 30%;
+}
+
+.flag img{
+    position: absolute;
+    width: 10%;
+    right: 80px;
+}
+
+footer{
+    text-align: center;
+}
+
+
 
     
 }
